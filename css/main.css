@@ -1,0 +1,191 @@
+.bg-home {
+	background-image: url('../assets/img/taxi.jpg');
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.mb-0 {
+	margin-bottom: 0;
+}
+
+.banner {
+	top: 20%;
+	background-color: #f7b532;
+	color: white;
+	padding: 5%;
+}
+
+.banner img {
+	width: 25%;
+}
+
+.banner button {
+	margin-top: 15px;
+	padding: 10px;
+	font-size: 1.5em; 
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+}
+
+.banner hr {
+	position: relative;
+	text-align: center;
+}
+
+.banner hr:after {
+	position: absolute;
+	content: "O bien";
+	margin-top: -10px;
+	background-color: #f7b532;
+	padding: 0 20px;
+}
+
+.app {
+	background-color: #f7b532;
+	color: white;
+	text-align: center;
+}
+
+.app-frame {
+	margin: 8% 4%;
+	border: 1px solid white;
+}
+
+.app-frame img {
+	margin: 0 auto;
+}
+
+.app-frame > div {
+	margin: 4% 0;
+}
+
+.app-frame p {
+	margin: 30px 0;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.app h3 {
+	margin-left: 4%;
+}
+
+.bg-drive {
+	background-image: url('../assets/img/conduce.jpg');
+	background-size: cover;
+	color: white;
+}
+
+.drive-frame {
+	padding: 15% 8%;
+	background-color: rgba(0, 0, 0, .7);
+}
+
+.drive-frame p, 
+.drive-frame button {
+	font-size: 1.5em;
+}
+
+.drive-frame button {
+	background-color: #f7b532;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 15%;
+}
+
+.prices {
+	background-color: #f7b532;
+	color: white;
+	padding: 10% 4%;
+}
+
+.prices-form {
+	margin: 5% 0;
+}
+
+.prices-form p {
+	font-size: 1.2em;
+}
+
+.prices-form .form-group {
+	margin: 25px 0;
+}
+
+.prices-form .form-group input,
+.prices-form .form-group img {
+	display: inline-block;
+}
+
+.prices-form .form-group input {
+	width: 80%;
+	border-radius: 10px;
+	background-color: transparent;
+	border-color: white;
+	margin-left: 20px;
+	padding: 20px;
+}
+
+.prices-form .form-group input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+}
+.prices-form .form-group input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: white;
+}
+.prices-form .form-group input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: white;
+}
+.prices-form .form-group input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+}
+.prices-form .form-group input::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+}
+
+.prices-form button {
+	padding: 10px 30px;
+	background-color: white;
+	color: black;
+}
+
+.prices .map {
+	border: 1px solid white;
+	height: 400px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+}
+
+footer .logo {
+	margin: 10px 4%;
+}
+
+footer hr {
+	margin-top: 5px;
+}
+
+footer ul {
+	list-style: none;
+	padding-left: 0;
+	font-size: 1.2em;
+}
+
+footer ul > li {
+	margin: 10px 0;
+}
+
+footer .social div {
+	margin: 10px 0;
+}
+
+footer .social .social-icons {
+	margin-bottom: 30px;
+}
+
+footer .social .social-icons i {
+	font-size: 1.2em;
+	margin: 0 10px;
+}
