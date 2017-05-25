@@ -26,7 +26,7 @@
 	      <ul class="nav navbar-nav">
 	        <li><a href="#">Viaja</a></li>
 	        <li><a href="#">Conduce</a></li>
-	        <li><a href="#">Inicia Sesión</a></li>
+	        <li><a href="#" data-toggle="modal" data-target="#modal-login">Inicia Sesión</a></li>
 	      </ul>
 	    </div>
 	  </div>
@@ -43,7 +43,7 @@
 					<h1>Disfruta del viaje <br>
 					Eres dueño de tu tiempo</h1>
 					<h2>Viaja con <img src="./assets/img/logoBlanco.png" alt="LabCar - Logo Blanco"></h2>
-					<button type="button" class="btn text-uppercase">Regístrate</button>
+					<button type="button" class="btn text-uppercase" data-toggle="modal" data-target="#modal-register">Regístrate</button>
 					<hr>
 					<button type="button" class="btn">Conviértete en conductor</button>
 				</div>
@@ -149,7 +149,95 @@
 			</div>
 		</footer>
 	</section>
-  <script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyC-aZJiTyzH5wrXwlwhKpOTkrQWESx6ghg&callback=initMap"></script>
+	<div class="modal fade" id="modal-login" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	    	<div class="modal-header">
+	    		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	    			<span aria-hidden="true">&times;</span>
+	    		</button>
+	    	</div>
+	    	<div class="modal-body">
+	    		<div class="text-center">
+	      			<i class="fa fa-user-circle user" aria-hidden="true"></i>
+	      		</div>
+	      		<form class="login">
+	      			<div class="input-group">
+  						<span class="input-group-addon" id="user-addon">@</span>
+						<input type="text" class="form-control" placeholder="Username" aria-describedby="user-addon">
+	      			</div>
+	      			<div class="input-group">
+  						<span class="input-group-addon" id="key-addon">@</span>
+						<input type="password" class="form-control" placeholder="Password" aria-describedby="key-addon">
+	      			</div>
+	      			<button type="submit" class="btn text-uppercase btn-login">Login</button>
+	      			<p>Forgot password? <a href="#">Click Here</a></p>
+	      		</form>
+	    	</div>
+	    </div>
+	  </div>
+	</div>
+
+	<div class="modal fade" id="modal-register" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	    	<div class="modal-header">
+	    		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	    			<span aria-hidden="true">&times;</span>
+	    		</button>
+	    		<h4 class="modal-title">Crea una cuenta</h4>
+	    	</div>
+	    	<div class="modal-body">
+	    		<form action="#" class="container-fluid">
+	    			<div class="row">
+	    				<div class="col-lg-6">
+	    					<input type="text" class="form-control" placeholder="Nombre">
+	    				</div>
+	    				<div class="col-lg-6">
+	    					<input type="text" class="form-control" placeholder="Apellido">
+	    				</div>
+	    			</div>
+	    			<div class="row">
+	    				<div class="col-lg-12">
+	    					<input type="text" class="form-control" placeholder="Correo electrónico">
+	    				</div>
+	    			</div>
+	    			<div class="row">
+	    				<div class="col-lg-12">
+	    					<input type="text" class="form-control" placeholder="Teléfono">
+	    				</div>
+	    			</div>
+	    			<div class="row">
+	    				<div class="col-lg-12">
+	    					<input type="text" class="form-control" placeholder="Contraseña">
+	    				</div>
+	    			</div>
+	    			<div class="row">
+	    				<div class="col-lg-12">
+	    					<input type="text" class="form-control" placeholder="Ciudad">
+	    				</div>
+	    			</div>
+	    			<div class="row">
+	    				<div class="col-lg-12">
+	    					<input type="text" class="form-control" placeholder="(Opcional) Código de invitación">
+	    				</div>
+	    			</div>
+	    			<div class="row">
+	    				<div class="col-lg-12">
+		    				<select class="form-control">
+		    					<option value="0">Cómo te enteraste acerca de nosotros?</option>
+		    				</select>
+	    				</div>
+	    			</div>
+	    			<div class="btn-container row">
+	    				<button type="submit" class="btn text-uppercase">Registrar</button>
+	    			</div>
+	    		</form>
+	    	</div>
+	    </div>
+	  </div>
+	</div>
+  	<script async defer src="//maps.googleapis.com/maps/api/js?key=AIzaSyC-aZJiTyzH5wrXwlwhKpOTkrQWESx6ghg&callback=initMap"></script>
 	<script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="./js/app.js"></script>
